@@ -1,0 +1,24 @@
+{
+    "name": "aphonix/supports",
+    "description": "common components",
+    "keywords": ["support", "array", "collection", "config", "http", "guzzle"],
+    "support": {
+        "source": "https://github.com/aphonix/supports"
+    },
+    "authors": [
+        {
+            "name": "aphonix",
+            "email": "ibeach@yeah.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aphonix\\Supports\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
